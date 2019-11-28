@@ -14,6 +14,7 @@ resource "random_password" "password-user" {
   min_numeric = 3
 }
 
+resource "null_resource" "example" {}
 
 
 output "user_pass" {
